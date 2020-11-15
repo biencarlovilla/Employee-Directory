@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root,
+  #root > div,
+  div[data-reactroot] {
+    height: 100%;
+    padding: 10;
+    margin: 100;
+    text-align: center;
+    background-color: rgb(66, 138, 138);
+  }
